@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 source variables.sh
 
-./script/slack.sh "$USER executed deploy.sh."
+./script/discord.sh "$USER executed deploy.sh."
 
 for server in ${ISUCON_SERVERS[@]};
 do
